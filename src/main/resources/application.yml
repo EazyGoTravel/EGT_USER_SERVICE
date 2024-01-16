@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: egt-user-service
+  config.import: configserver:http://localhost:9696
+  cloud:
+    config:
+      label: main
